@@ -1,0 +1,123 @@
+*{
+
+    font-family: 'JetBrains Mono', monospace;
+
+}
+
+
+body {
+
+    margin: 0;
+    
+}
+
+.bg-image{
+
+    position: absolute; 
+    height: 100%; 
+    width: 100%; 
+    background-image: url('/images/background-image.jpg'); 
+    background-size: cover; 
+    background-position: center; 
+    z-index: -1; 
+
+}
+
+.main{
+
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.box{
+
+    width: 1200px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    gap: 30px;
+    background-color: #141010;
+    color: #141010;
+    height: 380px;
+    box-sizing: border-box;
+    margin: auto;
+
+}
+
+.bookmarks-container{
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+
+}
+
+.bookmarks-1{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2em;
+
+}
+
+.bookmarks-2{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2em;
+
+
+}
+
+.fetch{
+
+    color: #C9B28B;
+    padding-top: 10px;
+    margin-bottom: 20px;
+}
+
+.bookmark{
+
+    color: #C9B28B;
+
+}
+
+.command-input {
+    border: none;
+    outline: none;
+    background: transparent;
+    color: #C9B28B;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 16px;
+    width: 100%;
+}
+
+.active-terminal {
+    display: flex;
+    align-items: center;
+    color: #C9B28B;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 16px;
+    padding-top: 30px;
+}
+
+.active-terminal input {
+    margin-left: 5px;
+    border: none;
+    outline: none;
+    background: transparent;
+    color: inherit; /* Inherit the text color from the parent */
+    font-family: inherit; /* Inherit the font family from the parent */
+    font-size: inherit; /* Inherit the font size from the parent */
+    width: 100%;
+}
